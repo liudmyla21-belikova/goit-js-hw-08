@@ -94,8 +94,6 @@ function handleClick(event) {
     return;
   }
 
-  const currentImages = event.target.closest(".gallery-item");
-
   const original = event.target.dataset.source;
   const image = images.find((item) => item.original === original);
 
